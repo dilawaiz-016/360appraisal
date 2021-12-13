@@ -1,0 +1,117 @@
+body {
+ /* background-color: black ;  */
+font-size : 15px;
+
+
+}
+.form-btn {
+  font-family: Montserrat-Bold;
+  font-size: 15px;
+  line-height: 0;
+  color: #fff;
+  text-transform: uppercase;
+  width:10%;
+  height: 40px;
+  border-radius: 25px;
+  background: #57b846;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+
+}
+.title{
+    font-size: 29px;
+	font-weight: 600;
+	display: inline-block;
+	margin-top: 10px;
+font-style: oblique;
+color :purple;
+}
+.container{
+    display:contents;
+	justify-content: right;
+	align-items:center;
+
+}
+.section-heading{
+    margin-top: 50px;
+    width: auto;
+    padding-left: 350px;
+    text-decoration: black;
+}
+.heading{
+    font-size: 30px;
+    font-family: Poppins-Bold;
+    margin-top: 80px;
+    padding-left: 100px;
+
+  font-style: oblique;
+color :Black ;
+}
+
+.form{
+    
+	padding: 40px 0px;
+
+  width: 200%;
+  z-index: 1;
+  margin-bottom: 10px;
+  padding-left: 30px;
+
+}
+.input{
+ font-family: Poppins-medium;
+  font-size: 12px;
+  padding-left: 50px;
+  line-height: 1.5;
+  padding: 0 30px 0 68px;
+
+}
+.form-btn:hover {
+  background: #fff;
+  color: #a4c639;
+border : 2px solid #57b846;
+}
+.floatRight{
+float:right;
+width: 650px;  
+height: 500px;    
+padding: 25px;
+   }
+
+#evelf{
+  background-color:white;
+  /* background: url('images/eval4.png'); */
+  /* background-image:url('{{asset("images/eval4.png")}}');
+  background-repeat: no-repeat;
+  background-position: center center; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.demo-bg {
+  opacity: 0.2;
+  position: absolute;
+  left: 42%;
+  top: 70%;
+  width: 300px;
+  height: 300px;
+}
+
+.demo-content {
+  position: relative;
+}
+
+.demo-content p {
+  padding:2px 3px;
+  border-radius: 10px;
+  background:rgb(235, 231, 231);
+}
