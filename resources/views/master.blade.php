@@ -152,7 +152,7 @@ section .section-title {
 
     <script>
     console.log('hii');
-    $('#mess').toggle("linear"); 
+    $('#mess').toggle(2000); 
     </script>
 
   </body>

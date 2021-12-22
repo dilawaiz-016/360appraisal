@@ -47,7 +47,7 @@
               @endphp
               
                @if($cont)
-                 <a href="#" class="btn btn-success" >Sended</a>
+                 <a href="#" class="btn btn-success" >Sent</a>
                 
               @else
 
